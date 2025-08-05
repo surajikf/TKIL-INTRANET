@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 60" width="300" height="60">
-  <g fill="#000000">
-    <!-- thyssenkrupp text -->
-    <text x="10" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold">thyssenkrupp</text>
-    <!-- Engineering. tomorrow. together. tagline -->
-    <text x="10" y="50" font-family="Arial, sans-serif" font-size="12" font-style="italic">Engineering. tomorrow. together.</text>
-  </g>
-</svg>
