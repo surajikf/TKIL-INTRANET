@@ -59,7 +59,8 @@ const Home = () => {
       color: 'from-blue-500 to-blue-600',
       bgColor: 'bg-blue-50',
       description: 'Access HR policies and employee services',
-      stats: '500+ Employees'
+      stats: '500+ Employees',
+      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop&crop=center'
     },
     { 
       name: 'Downloads', 
@@ -68,7 +69,8 @@ const Home = () => {
       color: 'from-green-500 to-green-600',
       bgColor: 'bg-green-50',
       description: 'Browse company documents and templates',
-      stats: '42 Files Available'
+      stats: '42 Files Available',
+      image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&crop=center'
     },
     { 
       name: 'Contact', 
@@ -77,7 +79,8 @@ const Home = () => {
       color: 'from-purple-500 to-purple-600',
       bgColor: 'bg-purple-50',
       description: 'Get in touch with departments',
-      stats: '6 Departments'
+      stats: '6 Departments',
+      image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400&h=300&fit=crop&crop=center'
     },
     { 
       name: 'CSR Programs', 
@@ -86,7 +89,8 @@ const Home = () => {
       color: 'from-orange-500 to-orange-600',
       bgColor: 'bg-orange-50',
       description: 'Explore corporate social responsibility',
-      stats: '5 Active Programs'
+      stats: '5 Active Programs',
+      image: 'https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=400&h=300&fit=crop&crop=center'
     },
     { 
       name: 'Canteen Menu', 
@@ -95,7 +99,8 @@ const Home = () => {
       color: 'from-amber-500 to-orange-600',
       bgColor: 'bg-amber-50',
       description: 'View daily menu and nutritional information',
-      stats: '25+ Daily Meals'
+      stats: '25+ Daily Meals',
+      image: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&h=300&fit=crop&crop=center'
     },
   ];
 
@@ -108,7 +113,8 @@ const Home = () => {
       icon: Calendar,
       color: 'bg-blue-500',
       attendees: 250,
-      location: 'Main Auditorium'
+      location: 'Main Auditorium',
+      image: 'https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=400&h=250&fit=crop&crop=center'
     },
     {
       title: 'New Employee Wellness Program Launch',
@@ -118,7 +124,8 @@ const Home = () => {
       icon: Heart,
       color: 'bg-green-500',
       participants: 500,
-      duration: 'Ongoing'
+      duration: 'Ongoing',
+      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=250&fit=crop&crop=center'
     },
     {
       title: 'Q1 Performance Reviews',
@@ -128,7 +135,8 @@ const Home = () => {
       icon: Target,
       color: 'bg-purple-500',
       deadline: 'April 15, 2024',
-      status: 'Active'
+      status: 'Active',
+      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=250&fit=crop&crop=center'
     }
   ];
 
@@ -138,28 +146,32 @@ const Home = () => {
       description: 'Quality management excellence',
       icon: Shield,
       color: 'bg-blue-500',
-      year: '2024'
+      year: '2024',
+      image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop&crop=center'
     },
     { 
       title: 'Best Employer Award 2023', 
       description: 'Recognized for employee satisfaction',
       icon: Star,
       color: 'bg-yellow-500',
-      year: '2023'
+      year: '2023',
+      image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=300&h=200&fit=crop&crop=center'
     },
     { 
       title: '500+ Projects Completed', 
       description: 'Milestone achievement this year',
       icon: CheckCircle,
       color: 'bg-green-500',
-      year: '2024'
+      year: '2024',
+      image: 'https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=300&h=200&fit=crop&crop=center'
     },
     { 
       title: 'Zero Safety Incidents', 
       description: '365 days accident-free workplace',
       icon: Award,
       color: 'bg-red-500',
-      year: '2024'
+      year: '2024',
+      image: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=300&h=200&fit=crop&crop=center'
     }
   ];
 
@@ -171,7 +183,8 @@ const Home = () => {
       icon: Users,
       color: 'bg-purple-500',
       participants: 25,
-      startDate: 'April 1, 2024'
+      startDate: 'April 1, 2024',
+      image: 'https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=300&h=200&fit=crop&crop=center'
     },
     { 
       title: 'Digital Skills Training', 
@@ -180,7 +193,8 @@ const Home = () => {
       icon: Globe,
       color: 'bg-blue-500',
       participants: 50,
-      startDate: 'March 25, 2024'
+      startDate: 'March 25, 2024',
+      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop&crop=center'
     },
     { 
       title: 'Safety Compliance', 
@@ -189,7 +203,8 @@ const Home = () => {
       icon: Shield,
       color: 'bg-orange-500',
       participants: 500,
-      startDate: 'March 18, 2024'
+      startDate: 'March 18, 2024',
+      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=300&h=200&fit=crop&crop=center'
     },
     { 
       title: 'Project Management', 
@@ -198,7 +213,8 @@ const Home = () => {
       icon: Target,
       color: 'bg-green-500',
       participants: 30,
-      startDate: 'April 8, 2024'
+      startDate: 'April 8, 2024',
+      image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop&crop=center'
     }
   ];
 
@@ -211,64 +227,71 @@ const Home = () => {
 
   return (
     <div className={`min-h-screen transition-all duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
-      {/* Hero Banner */}
-      <Banner
-        title="Welcome to TKIL Intranet"
-        subtitle="Your gateway to company resources, services, and information"
-        type="hero"
-        color="primary"
-        showAnimation={true}
-        showStats={true}
-        stats={[
-          { value: '500+', label: 'Employees', icon: Users },
-          { value: '42', label: 'Documents', icon: FileText },
-          { value: '6', label: 'Departments', icon: Briefcase }
-        ]}
-        actionButton={{
-          text: 'Explore Features',
-          onClick: () => console.log('Explore clicked')
-        }}
-      />
+      {/* Hero Section with Background Image */}
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        {/* Background Image */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=1080&fit=crop&crop=center')`,
+          }}
+        >
+          <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        </div>
+        
+        {/* Content */}
+        <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
+            Welcome to TKIL Intranet
+          </h1>
+          <p className="text-xl md:text-2xl mb-8 text-gray-200">
+            Your gateway to company resources, services, and information
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link 
+              to="/about" 
+              className="group px-8 py-4 bg-white text-gray-900 rounded-xl hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 font-semibold"
+            >
+              <span className="flex items-center">
+                Explore Features
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              </span>
+            </Link>
+            <Link 
+              to="/contact" 
+              className="group px-8 py-4 bg-transparent border-2 border-white text-white rounded-xl hover:bg-white hover:text-gray-900 transition-all duration-300 transform hover:scale-105 font-semibold"
+            >
+              <span className="flex items-center">
+                Contact Us
+                <Phone className="ml-2 h-5 w-5 group-hover:scale-110 transition-transform" />
+              </span>
+            </Link>
+          </div>
+        </div>
+      </section>
 
-
-
-      {/* Info Banner */}
-      <Banner
-        title="🚀 New Features Available"
-        subtitle="Discover our latest updates and improvements to enhance your experience"
-        type="info"
-        color="success"
-        actionButton={{
-          text: 'Learn More',
-          onClick: () => console.log('Learn more clicked')
-        }}
-      />
-
-      {/* Stats Banner */}
-      <Banner
-        title="Company Statistics"
-        subtitle="Key metrics and achievements that drive our success"
-        type="stats"
-        color="info"
-        stats={[
-          { value: '500+', label: 'Employees', icon: Users },
-          { value: '1000+', label: 'Projects', icon: Briefcase },
-          { value: '15+', label: 'Countries', icon: Globe },
-          { value: '15+', label: 'Years', icon: Award }
-        ]}
-      />
-
-      {/* Alert Banner */}
-      <Banner
-        title="🎉 Employee Recognition Program"
-        subtitle="Nominate your colleagues for outstanding contributions and achievements"
-        type="alert"
-        color="warning"
-        actionButton={{
-          text: 'Nominate Now',
-          onClick: () => console.log('Nominate clicked')
-        }}
-      />
+      {/* Stats Section with Background */}
+      <section className="py-16 bg-gradient-to-r from-blue-600 to-purple-600 relative overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center opacity-10"
+          style={{
+            backgroundImage: `url('https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1920&h=400&fit=crop&crop=center')`,
+          }}
+        ></div>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            {stats.map((stat, index) => (
+              <div key={index} className="text-center text-white">
+                <div className={`inline-flex items-center justify-center w-16 h-16 ${stat.bgColor} rounded-full mb-4`}>
+                  <stat.icon className={`h-8 w-8 ${stat.color}`} />
+                </div>
+                <div className="text-3xl font-bold mb-2">{stat.value}</div>
+                <div className="text-gray-200">{stat.label}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* Quick Links */}
       <section className="py-16 bg-gradient-to-br from-gray-50 to-white">
@@ -287,6 +310,12 @@ const Home = () => {
                 onMouseEnter={() => setActiveCard(index)}
                 onMouseLeave={() => setActiveCard(null)}
               >
+                {/* Background Image */}
+                <div 
+                  className="absolute inset-0 bg-cover bg-center opacity-20 group-hover:opacity-30 transition-opacity duration-300"
+                  style={{ backgroundImage: `url('${link.image}')` }}
+                ></div>
+                
                 <div className="absolute inset-0 bg-gradient-to-br opacity-0 group-hover:opacity-10 transition-opacity duration-300 ${link.color}"></div>
                 <div className="relative p-8">
                   <div className={`inline-flex items-center justify-center w-16 h-16 ${link.bgColor} rounded-2xl mb-6 group-hover:scale-110 transition-transform duration-300`}>
@@ -321,12 +350,21 @@ const Home = () => {
                 key={index}
                 className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 overflow-hidden"
               >
-                <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-gray-100 to-gray-200 rounded-bl-3xl opacity-50 group-hover:opacity-75 transition-opacity"></div>
-                <div className="relative p-6">
-                  <div className="flex items-center mb-4">
-                    <div className={`inline-flex items-center justify-center w-10 h-10 ${item.color} rounded-xl mr-3`}>
+                {/* Background Image */}
+                <div 
+                  className="h-48 bg-cover bg-center relative"
+                  style={{ backgroundImage: `url('${item.image}')` }}
+                >
+                  <div className="absolute inset-0 bg-black bg-opacity-20"></div>
+                  <div className="absolute top-4 right-4">
+                    <div className={`inline-flex items-center justify-center w-10 h-10 ${item.color} rounded-xl`}>
                       <item.icon className="h-5 w-5 text-white" />
                     </div>
+                  </div>
+                </div>
+                
+                <div className="p-6">
+                  <div className="flex items-center mb-4">
                     <span className="text-sm font-medium text-gray-500">{item.type}</span>
                   </div>
                   
@@ -377,17 +415,27 @@ const Home = () => {
             {achievements.map((achievement, index) => (
               <div 
                 key={index}
-                className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 p-6 text-center"
+                className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 overflow-hidden"
               >
-                <div className={`inline-flex items-center justify-center w-16 h-16 ${achievement.color} rounded-2xl mb-4 group-hover:scale-110 transition-transform duration-300`}>
-                  <achievement.icon className="h-8 w-8 text-white" />
+                {/* Background Image */}
+                <div 
+                  className="h-32 bg-cover bg-center relative"
+                  style={{ backgroundImage: `url('${achievement.image}')` }}
+                >
+                  <div className="absolute inset-0 bg-black bg-opacity-30"></div>
                 </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-primary-600 transition-colors">
-                  {achievement.title}
-                </h3>
-                <p className="text-gray-600 text-sm mb-3">{achievement.description}</p>
-                <div className="inline-flex items-center px-3 py-1 bg-primary-100 text-primary-700 rounded-full text-sm font-medium">
-                  {achievement.year}
+                
+                <div className="p-6 text-center">
+                  <div className={`inline-flex items-center justify-center w-16 h-16 ${achievement.color} rounded-2xl mb-4 group-hover:scale-110 transition-transform duration-300 -mt-8 relative z-10`}>
+                    <achievement.icon className="h-8 w-8 text-white" />
+                  </div>
+                  <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-primary-600 transition-colors">
+                    {achievement.title}
+                  </h3>
+                  <p className="text-gray-600 text-sm mb-3">{achievement.description}</p>
+                  <div className="inline-flex items-center px-3 py-1 bg-primary-100 text-primary-700 rounded-full text-sm font-medium">
+                    {achievement.year}
+                  </div>
                 </div>
               </div>
             ))}
@@ -409,9 +457,16 @@ const Home = () => {
                 key={index}
                 className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105 overflow-hidden"
               >
-                <div className="absolute top-0 right-0 w-16 h-16 bg-gradient-to-br from-gray-100 to-gray-200 rounded-bl-2xl opacity-50 group-hover:opacity-75 transition-opacity"></div>
-                <div className="relative p-6">
-                  <div className={`inline-flex items-center justify-center w-12 h-12 ${program.color} rounded-xl mb-4`}>
+                {/* Background Image */}
+                <div 
+                  className="h-32 bg-cover bg-center relative"
+                  style={{ backgroundImage: `url('${program.image}')` }}
+                >
+                  <div className="absolute inset-0 bg-black bg-opacity-30"></div>
+                </div>
+                
+                <div className="p-6">
+                  <div className={`inline-flex items-center justify-center w-12 h-12 ${program.color} rounded-xl mb-4 -mt-8 relative z-10`}>
                     <program.icon className="h-6 w-6 text-white" />
                   </div>
                   
@@ -447,9 +502,17 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Call to Action */}
-      <section className="py-16 bg-gradient-to-r from-primary-600 to-secondary-600">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      {/* Call to Action with Background Image */}
+      <section className="py-16 relative overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: `url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=600&fit=crop&crop=center')`,
+          }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-r from-primary-600 to-secondary-600 bg-opacity-90"></div>
+        </div>
+        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">Ready to Get Started?</h2>
           <p className="text-xl text-primary-100 mb-8">
             Explore our comprehensive intranet platform and discover all the resources available to you.

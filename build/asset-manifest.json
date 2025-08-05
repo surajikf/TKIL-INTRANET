@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/TKIL-INTRANET/static/css/main.037667d3.css",
-    "main.js": "/TKIL-INTRANET/static/js/main.a6b1b732.js",
+    "main.css": "/TKIL-INTRANET/static/css/main.aa7615e5.css",
+    "main.js": "/TKIL-INTRANET/static/js/main.5fd2c0a4.js",
     "index.html": "/TKIL-INTRANET/index.html",
-    "main.037667d3.css.map": "/TKIL-INTRANET/static/css/main.037667d3.css.map",
-    "main.a6b1b732.js.map": "/TKIL-INTRANET/static/js/main.a6b1b732.js.map"
+    "main.aa7615e5.css.map": "/TKIL-INTRANET/static/css/main.aa7615e5.css.map",
+    "main.5fd2c0a4.js.map": "/TKIL-INTRANET/static/js/main.5fd2c0a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.037667d3.css",
-    "static/js/main.a6b1b732.js"
+    "static/css/main.aa7615e5.css",
+    "static/js/main.5fd2c0a4.js"
   ]
 }

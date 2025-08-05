@@ -503,36 +503,76 @@ const AboutUs = () => {
 
   return (
     <div className={`min-h-screen bg-gradient-to-br from-gray-50 to-white transition-all duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
-      {/* Hero Banner */}
-      <Banner
-        title="About Us"
-        subtitle="Learn about TKIL's mission, vision, values, and leadership team"
-        type="hero"
-        color="primary"
-        showAnimation={true}
-        showStats={true}
-        stats={[
-          { value: '15+', label: 'Years Experience', icon: Award },
-          { value: '500+', label: 'Team Members', icon: Users },
-          { value: '1000+', label: 'Projects Completed', icon: CheckCircle }
-        ]}
-        actionButton={{
-          text: 'Learn More',
-          onClick: () => console.log('Learn more clicked')
-        }}
-      />
+      {/* Hero Section with Background Image */}
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        {/* Background Image */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1920&h=1080&fit=crop&crop=center')`,
+          }}
+        >
+          <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+        </div>
+        
+        {/* Content */}
+        <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
+            About Us
+          </h1>
+          <p className="text-xl md:text-2xl mb-8 text-gray-200">
+            Learn about TKIL's mission, vision, values, and leadership team
+          </p>
+          
+          {/* Stats */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            <div className="text-center">
+              <div className="text-4xl font-bold mb-2">15+</div>
+              <div className="text-gray-200">Years Experience</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold mb-2">500+</div>
+              <div className="text-gray-200">Team Members</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold mb-2">1000+</div>
+              <div className="text-gray-200">Projects Completed</div>
+            </div>
+          </div>
+          
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <button 
+              onClick={() => setActiveSection('overview')}
+              className="group px-8 py-4 bg-white text-gray-900 rounded-xl hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 font-semibold"
+            >
+              <span className="flex items-center">
+                Learn More
+                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
 
-      {/* Info Banner */}
-      <Banner
-        title="🏆 Industry Leader"
-        subtitle="Recognized for excellence in innovation and sustainable business practices"
-        type="info"
-        color="success"
-        actionButton={{
-          text: 'View Awards',
-          onClick: () => console.log('View awards clicked')
-        }}
-      />
+      {/* Industry Leader Section with Background */}
+      <section className="py-16 bg-gradient-to-r from-green-600 to-blue-600 relative overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center opacity-10"
+          style={{
+            backgroundImage: `url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1920&h=400&fit=crop&crop=center')`,
+          }}
+        ></div>
+        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+          <h2 className="text-3xl font-bold mb-4">🏆 Industry Leader</h2>
+          <p className="text-xl mb-6">Recognized for excellence in innovation and sustainable business practices</p>
+          <button className="group px-6 py-3 bg-white text-green-600 rounded-xl hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 font-semibold">
+            <span className="flex items-center">
+              View Awards
+              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+            </span>
+          </button>
+        </div>
+      </section>
 
       {/* Navigation Tabs */}
       <section className="bg-white shadow-lg sticky top-16 z-40">
