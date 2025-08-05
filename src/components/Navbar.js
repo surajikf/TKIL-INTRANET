@@ -25,11 +25,9 @@ const Navbar = () => {
           {/* Logo and Brand */}
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <img 
-                src="/images/thyssenkrupp-logo.svg" 
-                alt="thyssenkrupp Logo" 
-                className="h-12 w-auto"
-              />
+              <div className="h-10 w-10 bg-primary-600 rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold text-xl">T</span>
+              </div>
               <span className="ml-3 text-xl font-bold text-gray-900">TKIL Intranet</span>
             </Link>
           </div>
