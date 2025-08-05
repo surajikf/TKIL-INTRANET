@@ -305,14 +305,43 @@ const CSR = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Page Header */}
-      <section className="page-header">
-        <div className="max-w-7xl mx-auto text-center">
-          <h1 className="page-title">Corporate Social Responsibility</h1>
-          <p className="page-subtitle">
+      {/* Hero Section with Background Image */}
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        {/* Background Image */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url('https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=1920&h=1080&fit=crop&crop=center')`,
+          }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-br from-green-600 via-blue-600 to-purple-600 bg-opacity-80"></div>
+        </div>
+        
+        {/* Content */}
+        <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-green-200 bg-clip-text text-transparent">
+            Corporate Social Responsibility
+          </h1>
+          <p className="text-xl md:text-2xl text-green-100 max-w-3xl mx-auto mb-8">
             At TKIL, we believe in making a positive impact on society and the environment. 
             Join us in our mission to create meaningful change through community service and sustainable practices.
           </p>
+          
+          {/* Quick Stats */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            <div className="text-center">
+              <div className="text-4xl font-bold mb-2">5</div>
+              <div className="text-gray-200">CSR Programs</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold mb-2">1000+</div>
+              <div className="text-gray-200">Volunteers</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold mb-2">10,000+</div>
+              <div className="text-gray-200">Lives Impacted</div>
+            </div>
+          </div>
         </div>
       </section>
 

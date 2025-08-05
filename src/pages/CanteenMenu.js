@@ -77,24 +77,54 @@ const CanteenMenuPage = () => {
 
   return (
     <div className={`min-h-screen bg-gradient-to-br from-orange-50 to-amber-50 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
-      {/* Hero Banner */}
-      <Banner
-        title="🍽️ TKIL Canteen Menu"
-        subtitle="Discover delicious meals, nutritional information, and daily specials"
-        type="hero"
-        color="primary"
-        showAnimation={true}
-        showStats={true}
-        stats={[
-          { value: '25+', label: 'Daily Meals', icon: Utensils },
-          { value: '4.8★', label: 'Avg Rating', icon: Star },
-          { value: '500+', label: 'Happy Diners', icon: Users }
-        ]}
-        actionButton={{
-          text: 'Today\'s Special',
-          onClick: () => setSelectedDay(0)
-        }}
-      />
+      {/* Hero Section with Background Image */}
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        {/* Background Image */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: `url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1920&h=1080&fit=crop&crop=center')`,
+          }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-br from-orange-600 via-amber-600 to-orange-700 bg-opacity-80"></div>
+        </div>
+        
+        {/* Content */}
+        <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-orange-200 bg-clip-text text-transparent">
+            🍽️ TKIL Canteen Menu
+          </h1>
+          <p className="text-xl md:text-2xl text-orange-100 max-w-3xl mx-auto mb-8">
+            Discover delicious meals, nutritional information, and daily specials
+          </p>
+          
+          {/* Quick Stats */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            <div className="text-center">
+              <div className="text-4xl font-bold mb-2">25+</div>
+              <div className="text-gray-200">Daily Meals</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold mb-2">4.8★</div>
+              <div className="text-gray-200">Avg Rating</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl font-bold mb-2">500+</div>
+              <div className="text-gray-200">Happy Diners</div>
+            </div>
+          </div>
+          
+          <button 
+            onClick={() => setSelectedDay(0)}
+            className="group px-8 py-4 bg-white text-orange-600 rounded-xl hover:bg-orange-50 transition-all duration-300 transform hover:scale-105 font-semibold"
+          >
+            <span className="flex items-center">
+              Today's Special
+              <ChevronRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+            </span>
+          </button>
+        </div>
+      </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         {/* Search and Filter Section */}
