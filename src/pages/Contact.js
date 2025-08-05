@@ -620,10 +620,10 @@ const Contact = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1920&h=1080&fit=crop&crop=center')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1920&h=1080&fit=crop&crop=center')`,
           }}
         >
-          <div className="absolute inset-0 bg-gradient-to-br from-primary-600 via-primary-700 to-secondary-600 bg-opacity-80"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-purple-600 via-purple-700 to-purple-800 bg-opacity-85"></div>
         </div>
         
         {/* Content */}

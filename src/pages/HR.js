@@ -878,10 +878,10 @@ const HR = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1920&h=1080&fit=crop&crop=center')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1920&h=1080&fit=crop&crop=center')`,
           }}
         >
-          <div className="absolute inset-0 bg-gradient-to-br from-primary-600 via-primary-700 to-secondary-600 bg-opacity-80"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 bg-opacity-85"></div>
         </div>
         
         {/* Content */}

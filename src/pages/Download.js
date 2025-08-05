@@ -633,10 +633,10 @@ const DownloadPage = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1920&h=1080&fit=crop&crop=center')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1920&h=1080&fit=crop&crop=center')`,
           }}
         >
-          <div className="absolute inset-0 bg-gradient-to-br from-primary-600 via-primary-700 to-secondary-600 bg-opacity-80"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 bg-opacity-85"></div>
         </div>
         
         {/* Content */}

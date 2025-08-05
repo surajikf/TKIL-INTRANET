@@ -83,10 +83,10 @@ const CanteenMenuPage = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=1920&h=1080&fit=crop&crop=center')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920&h=1080&fit=crop&crop=center')`,
           }}
         >
-          <div className="absolute inset-0 bg-gradient-to-br from-orange-600 via-amber-600 to-orange-700 bg-opacity-80"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-orange-600 via-amber-600 to-orange-700 bg-opacity-85"></div>
         </div>
         
         {/* Content */}
